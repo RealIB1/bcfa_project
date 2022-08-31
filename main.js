@@ -24,21 +24,32 @@ const barMenu = document.querySelector(".bars-menu");
 const navMenu = document.querySelector(".nav-list");
 const navLink = document.querySelectorAll(".nav-link");
 const main = document.getElementsByClassName('main')
-barMenu.addEventListener("click", openNav);
-navLink.forEach((n) => n.addEventListener("click", closeNav));
 
-function openNav() {
+
+barMenu.addEventListener("click", openNav = () => {
   barMenu.classList.toggle("active");
   navMenu.classList.toggle("active");
-}
+});
 
 
-function closeNav() {
+navLink.forEach((n) => n.addEventListener("click", closeNav = () => {
   barMenu.classList.remove("active");
   navMenu.classList.remove("active");
 }
+));
 
-window.addEventListener("click", function(e) {
+// function openNav() {
+//   barMenu.classList.toggle("active");
+//   navMenu.classList.toggle("active");
+// }
+
+
+// function closeNav() {
+//   barMenu.classList.remove("active");
+//   navMenu.classList.remove("active");
+// }
+
+window.addEventListener("click", (e) => {
   if (e.target === main) {
     barMenu.classList.remove("active");
     navMenu.classList.remove("active");

@@ -223,6 +223,11 @@ svg {
   box-shadow: 1px 1px 0.5rem 0 rgba(0, 0, 0, 0.3);  z-index: 1000;
 }
 
+.nav-bar #brand::after {
+  content: "Blockchain Foundation";
+  font-size: 2rem;
+}
+
 .nav-list {
     display: flex;
     justify-content: space-between;
@@ -657,6 +662,10 @@ footer .footer-details {
 .nav-bar {
     display: flex;
     flex-direction: row;
+}
+
+.nav-bar #brand::after {
+  content: none;
 }
      
     .nav-list {
