@@ -256,8 +256,8 @@ svg {
 }
 
 .bars-menu:hover {
-    display: block;
-    box-shadow: 0 0 2px 0 var(--clr-accent-400);
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
 }
 
 span.bar {
