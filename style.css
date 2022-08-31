@@ -612,10 +612,6 @@ footer .footer-details {
 
 @media only screen and (max-width: 768px) {
 
-  .primary-header {
-    width: 100%;
-    overflow-x: hidden;
-  }
 
     .hero_1 {
         font-weight: var(--fw-semi-bold);
