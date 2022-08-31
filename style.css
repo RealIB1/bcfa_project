@@ -12,6 +12,7 @@
 
   --ff-body: var(--ff-primary);
   --ff-heading: var(--ff-primary);
+  --ff-alt: Verdana, Geneva, Tahoma, sans-serif;
 
   --fw-regular: 400;
   --fw-semi-bold: 500;
@@ -783,6 +784,7 @@ label {
 footer p {
   color: var(--clr-accent-100);
   font-size: 1rem;
+  font-family: var(--ff-alt);
 }
 }
 
