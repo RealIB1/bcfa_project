@@ -27,58 +27,79 @@
   </head>
   <body>
     <!-- Whatsapp button -->
-    <a href="#whatsapp-button" id="whatsapp-btn">
+    <a href="#whatsapp-link" id="whatsapp-btn">
       <!-- <i class="fa-brands fa-square-whatsapp"></i>
        -->
        <i class="fa-brands fa-whatsapp"></i>
+       <p class="whatsap-us">Whatsapp</p>
       </a>
 
     <!-- Navigation bar -->
-    
-    <!-- <header class="primary-header">
-      <div class="container-navigation"> -->
-
-        <nav class="nav-bar">
-          <a href="#" id="brand"><img src="" alt="logo" /></a>
-          <ul role="list" class="nav-list">
-            <li class="nav-link-list"><a href="#" class="nav-link">Home</a></li>
-            <li class="nav-link-list">
-              <div class="dropdown" data-dropdown>
-                <button class="services" data-dropdown-button>Services<i class="fa-solid fa-angle-down" data-dropdown-icon></i></button>
-                <div class="dropdown-menus">
-                 <ul role="list" class="dropdown-list">
+     <nav class="navbar">
+      <h1 class="header"><a href="index.html"><img src="" alt="logo"></a></h1>
+      <ul class="nav-menu">
+        <li class="nav-link-list">
+          <a class="nav-link" href="#home"
+            >Home</a
+          >
+        </li>
+        <li class="nav-link-list">
+          <!-- <a class="nav-link" href="#services"></a> -->
+            <div class="dropdown">
+              <button class="nav-link-list" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </button>
+              <ul role="list" class="dropdown-menu">
                   <li><a href="">Awareness</a></li> <br>
                   <li><a href="">Advertising</a></li> <br>
                   <li><a href="">Promotion</a></li> <br>
-                 </ul>
-                </div>
-              </div>
-            </li>
-            <li class="nav-link-list">
-              <div class="dropdown" data-dropdown>
-                <button class="services" data-dropdown-button>Events<i class="fa-solid fa-angle-down" data-dropdown-icon></i></button>
-                <div class="dropdown-menus">
-                 <ul role="list" class="dropdown-list">
-                  <li><a href="">Workshops</a></li> <br>
-                  <li><a href="">Developer Week</a></li> <br>
-                  <li><a href="">Festivals</a></li> <br>
-                 </ul>
-                </div>
-              </div>
-            </li>
-            <li class="nav-link-list"><a href="#" class="nav-link">Gallery</a></li>
-            <li class="nav-link-list"><a href="#" class="nav-link">About Us</a></li>
-            <button class="apply-btn nav-link-list">Apply Now</button>
-          </ul>
-        <div class="bars-menu">
-          <span class="bar"></span>
-          <span class="bar small"></span>
-          <span class="bar"></span>
-        </div>
-        </nav>
-      <!-- </div>
-    </header> -->
+              </ul>
+            </div>
+        </li>
+        <li class="nav-link-list">
+          <!-- <a class="nav-link" href="#constact">Events</a> -->
+          <!-- <div class="dropdown">
+            <button class="nav-link-list" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Events
+            </button>
+            <ul role="list" class="dropdown-menu">
+              <li><a href="">Workshops</a></li> <br>
+              <li><a href="">Developer Week</a></li> <br>
+              <li><a href="">Festivals</a></li> <br>
+            </ul>
+          </div> -->
+<div class="custom-select" >
+  <select>
+    <option value="0">Services</option>
+    <option value="1">Audi</option>
+    <option value="2">BMW</option>
+    <option value="3">Citroen</option>
 
+  </select>
+</div>
+        </li>
+        
+        <li class="nav-link-list">
+          <a class="nav-link" href="#gallery">
+            Gallery</a>
+        </li>
+        <li class="nav-link-list">
+          <a class="nav-link" href="#about">
+            About Us</a>
+        </li>
+        <li class="nav-link-list">
+          <button class="nav-link apply-btn" href="#apply">
+            Apply Now</button>
+        </li>
+      </ul>
+
+      <div class="bars-menu">
+        <span class="bar"></span>
+        <span class="bar small"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+    
 
     <main class="bg-primary-400" id="mian">
       <!-- <div class="image__bg"> -->
